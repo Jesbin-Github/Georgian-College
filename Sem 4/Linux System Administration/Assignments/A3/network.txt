@@ -1,0 +1,30 @@
+  *-network:0
+       description: Ethernet interface
+       product: 79C97x [PCnet32 LANCE]
+       vendor: Advanced Micro Devices, Inc. [AMD]
+       physical id: 1
+       bus info: pci@0000:02:01.0
+       logical name: ens33
+       version: 10
+       serial: 00:0c:29:7e:b7:b1
+       size: 10Mbit/s
+       width: 32 bits
+       clock: 33MHz
+       capabilities: bus_master rom ethernet physical logical tp aui
+       configuration: autonegotiation=off broadcast=yes driver=pcnet32 driverversion=6.11.0-17-generic duplex=half ip=192.168.81.128 latency=64 link=yes maxlatency=255 mingnt=6 multicast=yes port=twisted pair speed=10Mbit/s
+       resources: irq:19 ioport:2000(size=128) memory:fd500000-fd50ffff
+  *-network:1
+       description: Ethernet interface
+       product: 79C97x [PCnet32 LANCE]
+       vendor: Advanced Micro Devices, Inc. [AMD]
+       physical id: 5
+       bus info: pci@0000:02:05.0
+       logical name: ens37
+       version: 10
+       serial: 00:0c:29:7e:b7:bb
+       size: 10Mbit/s
+       width: 32 bits
+       clock: 33MHz
+       capabilities: bus_master rom ethernet physical logical tp aui
+       configuration: autonegotiation=off broadcast=yes driver=pcnet32 driverversion=6.11.0-17-generic duplex=half ip=192.168.200.10 latency=64 link=yes maxlatency=255 mingnt=6 multicast=yes port=twisted pair speed=10Mbit/s
+       resources: irq:19 ioport:2080(size=128) memory:fd520000-fd52ffff
